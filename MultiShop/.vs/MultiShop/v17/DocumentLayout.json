@@ -1,50 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\",
+  "WorkspaceRootPath": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ibrah\\onedrive\\masa\u00FCst\u00FC\\codeacademy\\multitask\\multishop\\dataaccesslayer\\multishopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:dataaccesslayer\\multishopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\viewmodels\\sliders\\updateslidervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:viewmodels\\sliders\\updateslidervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ibrah\\onedrive\\masa\u00FCst\u00FC\\codeacademy\\multitask\\multishop\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ibrah\\onedrive\\masa\u00FCst\u00FC\\codeacademy\\multitask\\multishop\\viewmodels\\sliders\\createslidervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:viewmodels\\sliders\\createslidervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ibrah\\onedrive\\masa\u00FCst\u00FC\\codeacademy\\multitask\\multishop\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ibrah\\onedrive\\masa\u00FCst\u00FC\\codeacademy\\multitask\\multishop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|c:\\users\\ca.r214.15\\documents\\multishop\\multishop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:multishop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40A74A83-AB14-46BB-A2B4-F891B0EC1B53}|MultiShop.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,154 +62,175 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T08:06:22.854Z",
+              "DocumentIndex": 3,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAEYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T14:53:04.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Product\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Product\\Detail.cshtml",
-              "RelativeToolTip": "Views\\Product\\Detail.cshtml",
-              "ViewState": "AQIAAD4AAAAAAAAAAAD4vxQAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T08:04:06.761Z",
+              "DocumentIndex": 1,
+              "Title": "MultishopContext.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\DataAccessLayer\\MultishopContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\MultishopContext.cs",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\DataAccessLayer\\MultishopContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\MultishopContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T14:52:26.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateSliderVM.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\ViewModels\\Sliders\\CreateSliderVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Sliders\\CreateSliderVM.cs",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\ViewModels\\Sliders\\CreateSliderVM.cs",
+              "RelativeToolTip": "ViewModels\\Sliders\\CreateSliderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T14:34:54.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAALgAAAAAAAAAAAAQwI4BAAAiAAAA",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T08:00:34.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T08:00:07.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwEAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:57:40.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:47:24.423Z",
+              "WhenOpened": "2024-05-09T12:19:46.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAPMCAAAWAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:44:42.999Z",
+              "WhenOpened": "2024-05-09T09:49:52.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAKEAAAAAAAAAAAAAAMUAAABzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T07:44:27.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Title": "UpdateSliderVM.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\ViewModels\\Sliders\\UpdateSliderVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Sliders\\UpdateSliderVM.cs",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\ViewModels\\Sliders\\UpdateSliderVM.cs",
+              "RelativeToolTip": "ViewModels\\Sliders\\UpdateSliderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T07:43:12.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MultiShop",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\MultiShop.csproj",
-              "RelativeDocumentMoniker": "MultiShop.csproj",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\MultiShop.csproj",
-              "RelativeToolTip": "MultiShop.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-07T07:42:48.25Z",
+              "WhenOpened": "2024-05-09T13:05:14.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ca.r214.15\\Documents\\MultiShop\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T07:39:55.739Z",
+              "WhenOpened": "2024-05-09T13:54:41.728Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T14:47:40.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T13:10:51.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T12:09:26.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T13:43:43.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T13:49:37.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ibrah\\OneDrive\\Masa\u00FCst\u00FC\\CodeAcademy\\MultiTask\\MultiShop\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T13:13:24.011Z",
+              "EditorCaption": ""
             }
           ]
         }

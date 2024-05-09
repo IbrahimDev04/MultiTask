@@ -1,12 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MultiShop.DataAccessLayer;
+using MultiShop.ViewModels.Sliders;
 
 namespace MultiShop.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(MultishopContext _context) : Controller
     {
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var data = await _context.sliders
+                .Where(a => !a.isDelete)
+                .Select(s => new GetSliderVM
+                {
+                    Id = s.Id,
+                    Title = s.Title,
+                    SubTitle = s.SubTitle,
+                    İmageUrl = s.İmageUrl
+                }).ToListAsync();
+
+            return View(data);
         }
 
         public IActionResult Contact()
