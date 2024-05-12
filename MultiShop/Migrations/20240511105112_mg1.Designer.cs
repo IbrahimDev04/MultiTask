@@ -12,8 +12,8 @@ using MultiShop.DataAccessLayer;
 namespace MultiShop.Migrations
 {
     [DbContext(typeof(MultishopContext))]
-    [Migration("20240510073016_CreateSliderAndCategoryTable")]
-    partial class CreateSliderAndCategoryTable
+    [Migration("20240511105112_mg1")]
+    partial class mg1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
