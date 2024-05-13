@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MultiShop.DataAccessLayer;
+using MultiShop.Extensions;
 using MultiShop.Models;
 using MultiShop.ViewModels.Sliders;
 
 namespace MultiShop.Areas.Admin.Controllers
 {   
     [Area("Admin")]
-    public class SliderController(MultishopContext _context) : Controller
+    public class SliderController(MultishopContext _context, IWebHostEnvironment _env) : Controller
     {
         
         public async Task<IActionResult> Index()
@@ -20,7 +21,7 @@ namespace MultiShop.Areas.Admin.Controllers
                     Id = s.Id,
                     Title = s.Title,
                     SubTitle = s.SubTitle,
-                    İmageUrl = s.İmageUrl
+                    ImageUrl = s.İmageUrl
                 }).ToListAsync();   
                 
             return View(data);
@@ -35,16 +36,24 @@ namespace MultiShop.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateSliderVM sw)
         {
-            if(!ModelState.IsValid)
+            if (sw.ImageFile != null)
             {
-                return View(sw);
-                
+                if (!sw.ImageFile.IsValidType("image"))
+                    ModelState.AddModelError("ImageFile", "Type Error");
+
+                if (!sw.ImageFile.IsValidSize(200))
+                    ModelState.AddModelError("ImageFile", "Size Error");
             }
+
+            if (!ModelState.IsValid)
+                return View(sw);
+
+            string fileName = await sw.ImageFile.SaveFileAsync(Path.Combine(_env.WebRootPath, "imgs", "sliders"));
             Slider slider = new Slider
             {
                 Title = sw.Title,
                 SubTitle = sw.SubTitle,
-                İmageUrl = sw.İmageUrl,
+                İmageUrl = Path.Combine("imgs","sliders",fileName),
                 isDelete=false,
                 CreatedTime=DateTime.Now,
             };
@@ -68,7 +77,6 @@ namespace MultiShop.Areas.Admin.Controllers
             {
                 Title = slider.Title,
                 SubTitle = slider.SubTitle,
-                İmageUrl = slider.İmageUrl,
             };
 
             return View(sliderVM);
@@ -85,7 +93,6 @@ namespace MultiShop.Areas.Admin.Controllers
 
             slider.Title = sliderVM.Title;
             slider.SubTitle = sliderVM.SubTitle;
-            slider.İmageUrl = sliderVM.İmageUrl;
             slider.UpdatedTime = DateTime.Now;
 
             await _context.SaveChangesAsync();
@@ -97,9 +104,12 @@ namespace MultiShop.Areas.Admin.Controllers
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || id < 1) return BadRequest();
-            
-            var item = await _context.sliders.FindAsync(id);
+
+            var item = await _context.sliders.FirstOrDefaultAsync(x => x.Id == id);
+
             if (item == null) return NotFound();
+
+            item.İmageUrl.Delete(Path.Combine(_env.WebRootPath));
             _context.Remove(item);
             await _context.SaveChangesAsync();
 

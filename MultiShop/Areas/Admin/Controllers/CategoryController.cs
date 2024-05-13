@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using MultiShop.DataAccessLayer;
 using MultiShop.Extensions;
+using MultiShop.Models;
 using MultiShop.ViewModels.Categories;
 
 namespace MultiShop.Areas.Admin.Controllers
@@ -54,6 +55,21 @@ namespace MultiShop.Areas.Admin.Controllers
                 CreatedTime = DateTime.Now,
             });
 
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null || id < 1) return BadRequest();
+
+            var item = await _context.categories.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (item == null) return NotFound();
+
+            item.ImageUrl.Delete(Path.Combine(_env.WebRootPath));
+            _context.Remove(item);
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));

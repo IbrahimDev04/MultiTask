@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\imgs\categories\" />
+    <Folder Include="wwwroot\imgs\sliders\" />
     <Folder Include="wwwroot\imgs\products\" />
   </ItemGroup>
 

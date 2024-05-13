@@ -11,6 +11,6 @@ namespace MultiShop.ViewModels.Sliders
         public string SubTitle { get; set; }
 
         [Required]
-        public string İmageUrl { get; set; }
+        public IFormFile ImageFile { get; set; }
     }
 }

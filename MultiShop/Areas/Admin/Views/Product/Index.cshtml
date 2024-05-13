@@ -34,6 +34,9 @@
                     <h6 class="fw-semibold mb-0">ImageUrl</h6>
                 </th>
                 <th class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">ImagesUrl</h6>
+                </th>
+                <th class="border-bottom-0">
                     <h6 class="fw-semibold mb-0">Action</h6>
                 </th>
             </tr>
@@ -68,6 +71,9 @@
                     </td>
                     <td class="border-bottom-0">
                         <img src="~/@item.ImageUrl" width="60px" alt="Alternate Text" />
+                    </td>
+                    <td class="border-bottom-0">
+                        <img src="~/@item.ImagesUrl" width="60px" alt="Alternate Text" /> 
                     </td>
                     <td class="border-bottom-0">
                         <a asp-action="Update" asp-route-id="@item.Id" type="button" class="btn btn-outline-warning m-1">Edit</a>

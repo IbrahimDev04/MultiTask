@@ -187,7 +187,7 @@ namespace MultiShop.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImage");
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("MultiShop.Models.Size", b =>

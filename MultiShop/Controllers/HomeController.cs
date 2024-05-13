@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using MultiShop.DataAccessLayer;
 using MultiShop.SendModelView;
+using MultiShop.ViewModels.Categories;
 using MultiShop.ViewModels.Products;
 using MultiShop.ViewModels.Sliders;
 
@@ -22,7 +23,7 @@ namespace MultiShop.Controllers
                     Id = s.Id,
                     Title = s.Title,
                     SubTitle = s.SubTitle,
-                    İmageUrl = s.İmageUrl
+                    ImageUrl = s.İmageUrl
                 }).ToListAsync();
 
             var data1 = await _context.products
@@ -36,10 +37,19 @@ namespace MultiShop.Controllers
                     ImageUrl = s.ImageUrl
                 }).ToListAsync();
 
+            var data2 = await _context.categories
+                .Where(a => !a.isDelete)
+                .Select(s => new GetCategoryVM
+                {
+                    Name = s.Name,
+                    ImageUrl = s.ImageUrl,
+                }).ToListAsync();
+
             HomeData homeData = new HomeData
             {
                 getProductVM = data1,
-                getSliderVM = data
+                getSliderVM = data,
+                getCategoryVM = data2,
             };
 
             return View(homeData);
