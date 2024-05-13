@@ -12,11 +12,15 @@ namespace MultiShop.DataAccessLayer
 
         public DbSet<Product> products { get; set; }
 
+        public DbSet<Category> categories { get; set; }
+
+        public DbSet<ProductImage> ProductImages { get; set; }
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=ZEGA;Database=MultiShopDb;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=CA-R214-PC15;Database=MultiShopDba;Trusted_Connection=True;TrustServerCertificate=True;");
             base.OnConfiguring(optionsBuilder);
         }
     }

@@ -14,6 +14,7 @@ namespace MultiShop.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
 
+
             return View(
                 await _context.products
                 .Select(s => new GetProductAdminVM
@@ -32,12 +33,14 @@ namespace MultiShop.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Create()
         {
+            ViewBag.Categories = await _context.categories.ToListAsync();
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Create(CreateProductVM vm)
         {
+
             if (!vm.ImageFile.IsValidType("image"))
                 ModelState.AddModelError("ImageFile", "Fayl şəkil formatında olmalıdır.");
             if (!vm.ImageFile.IsValidSize(200))
@@ -48,7 +51,7 @@ namespace MultiShop.Areas.Admin.Controllers
 
             string fileName = await vm.ImageFile.SaveFileAsync(Path.Combine(_environment.WebRootPath, "imgs", "products"));
 
-            await _context.products.AddAsync(new Models.Product
+            Product product = new Models.Product
             {
                 CostPrice = vm.CostPrice,
                 StockCount = vm.StockCount,
@@ -59,8 +62,23 @@ namespace MultiShop.Areas.Admin.Controllers
                 CreatedTime = DateTime.Now,
                 isDelete = false,
                 Description = vm.Description,
-            });
+                CategoryId = vm.CategoryIds,
+                Images = new List<ProductImage>()
+            };
 
+            foreach (var img in vm.ImageFiles)
+            {
+                string newName = await img.SaveFileAsync(Path.Combine(_environment.WebRootPath, "imgs", "products"));
+                product.Images.Add(new ProductImage
+                {
+                    CreatedTime = DateTime.Now,
+                    ImageUrl = Path.Combine("imgs", "products", newName),
+                    isDelete = false,
+                });
+            }
+
+
+            await _context.products.AddAsync(product);
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
@@ -126,8 +144,16 @@ namespace MultiShop.Areas.Admin.Controllers
         {
             if (id == null || id < 1) return BadRequest();
 
-            var item = await _context.products.FindAsync(id);
+            var item = await _context.products.Include(x => x.Images).FirstOrDefaultAsync(x => x.Id == id);
+
             if (item == null) return NotFound();
+
+            item.ImageUrl.Delete(Path.Combine(_environment.WebRootPath));
+
+            foreach (ProductImage item1 in item.Images)
+            {
+                item1.ImageUrl.Delete(Path.Combine(_environment.WebRootPath));                
+            }
             _context.Remove(item);
             await _context.SaveChangesAsync();
 

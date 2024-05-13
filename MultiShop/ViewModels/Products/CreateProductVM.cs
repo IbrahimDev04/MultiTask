@@ -10,8 +10,10 @@ namespace MultiShop.ViewModels.Products
         public decimal CostPrice { get; set; }
         [Range(0,100)]
         public int Discount { get; set; }
+        public int CategoryIds { get; set; }
         public int StockCount { get; set; }
         public IFormFile ImageFile { get; set; }
+        public IEnumerable<IFormFile> ImageFiles { get; set; }
         //public IEnumerable<IFormFile> ImageFiles { get; set; }
     }
 }

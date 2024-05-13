@@ -1,0 +1,21 @@
+﻿@model CreateCategoryVM
+
+
+<form method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" name="Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ImageFile"></label>
+        <input asp-for="ImageFile" accept="image/*" class="form-control" name="ImageFile">
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+    @* <div class="mb-3">
+    <label asp-for="ImageFiles"></label>
+    <input asp-for="ImageFiles" accept="image/*" class="form-control" name="ImageFiles">
+    <span asp-validation-for="ImageFiles" class="text-danger"></span>
+    </div> *@
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

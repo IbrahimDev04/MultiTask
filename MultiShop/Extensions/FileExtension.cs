@@ -7,7 +7,7 @@
         public static bool IsValidSize(this IFormFile file, int KByte)
             => file.Length <= 1024 * KByte;
 
-        public static async Task<string> SaveFileAsync(this IFormFile formFile, string path)
+        public static async Task<string> SaveFileAsync(this IFormFile formFile,string path)
         {
             string extension = Path.GetExtension(formFile.FileName);
             string newName = Path.GetRandomFileName();
@@ -15,5 +15,10 @@
             await formFile.CopyToAsync(fileStream);
             return newName + extension;
         } 
+
+        public static async Task Delete(this string FileName, string path)
+        {
+            File.Delete(Path.Combine(path,FileName));
+        }
     }
 }
